@@ -33,7 +33,7 @@ There's a catch, though: rolling code support depends on **manufacturer keys** t
 
 This is fundamentally different from U2F, where you can supply your own key and handle the certificate side yourself (newer Kiisu batches even support U2F across all Flipper firmware forks). Rolling code requires the **original, unencrypted manufacturer keys** - there's no workaround.
 
-That's exactly why this repository exists: to give anyone running Flipper firmware on unofficial hardware the ability to interact with rolling code devices, just like a genuine Flipper Zero. And since the fix is simply a drop-in asset file, it works across **all firmware forks** - Official, Unleashed, Momentum, RogueMaster, and any other fork that follows the standard Sub-GHz asset structure.
+That's exactly why this repository exists: to give anyone running Flipper firmware(s) on unofficial hardware the ability to interact with rolling code devices, just like a genuine Flipper Zero. And since the fix is simply a drop-in asset file, it works across **all firmware forks** - Official, Unleashed, Momentum, RogueMaster, and any other fork that follows the standard Sub-GHz asset structure.
 
 > [!IMPORTANT]
 > All keys in this repository are sourced from **publicly available leaked data**. They were not extracted from a real Flipper Zero or Kiisu firmware fork. This is purely a curated collection of publicly known keys.
@@ -42,20 +42,20 @@ That's exactly why this repository exists: to give anyone running Flipper firmwa
 
 ## ❓ Missing Keys
 
-This file covers most manufacturer keys found across Flipper firmware variants, but not all. The following keys are currently missing:
+This file covers most manufacturer keys found across Flipper firmware forks, but not all. The following keys are currently missing:
 
-| Manufacturer Key   | Source Firmware |
-|--------------------|-----------------|
-| Clemsa_Mutancode   | Unleashed       |
-| Wisniowski         | Unleashed       |
-| ATA_PTX4           | Unleashed       |
-| Fadini             | Unleashed       |
-| Seav               | Unleashed       |
-| Pujol_Vario        | Unleashed       |
-| Erreka             | Unleashed       |
+| Manufacturer Key   | Source Firmware(s) |
+|--------------------|--------------------|
+| Clemsa_Mutancode   | Unleashed          |
+| Wisniowski         | Unleashed          |
+| ATA_PTX4           | Unleashed          |
+| Fadini             | Unleashed          |
+| Seav               | Unleashed          |
+| Pujol_Vario        | Unleashed          |
+| Erreka             | Unleashed          |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have a missing key, feel free to open a pull request. Please include the manufacturer name and the firmware it was sourced from.
+Contributions are welcome! If you have a missing key, feel free to open a pull request. Please include the manufacturer name and the firmware(s) it was sourced from.
