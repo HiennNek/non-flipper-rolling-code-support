@@ -31,7 +31,7 @@ Flipper Zero firmware(s) is open source, which means it's possible to run it on 
 
 There's a catch, though: rolling code support depends on **manufacturer keys** that are encrypted and stored in **slot 1 of the official Flipper Zero's secure enclave**. These keys are tied to official hardware, meaning unofficial devices have no way to access or decrypt them.
 
-This is fundamentally different from U2F, where you can supply your own key and handle the certificate side yourself (newer Kiisu batches even support U2F across all Flipper firmware builds). Rolling code requires the **original, unencrypted manufacturer keys** - there's no workaround.
+This is fundamentally different from U2F, where you can supply your own key and handle the certificate side yourself (newer Kiisu batches even support U2F across all Flipper firmware forks). Rolling code requires the **original, unencrypted manufacturer keys** - there's no workaround.
 
 That's exactly why this repository exists: to give anyone running Flipper firmware on unofficial hardware the ability to interact with rolling code devices, just like a genuine Flipper Zero. And since the fix is simply a drop-in asset file, it works across **all firmware forks** - Official, Unleashed, Momentum, RogueMaster, and any other fork that follows the standard Sub-GHz asset structure.
 
