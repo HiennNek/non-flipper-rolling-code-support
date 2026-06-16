@@ -53,6 +53,7 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | Seav               | Unleashed          |
 | Pujol_Vario        | Unleashed          |
 | Erreka             | Unleashed          |
+| Mc_Garcia          | Unleashed          |
 
 ---
 
