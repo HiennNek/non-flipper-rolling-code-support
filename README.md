@@ -1,4 +1,4 @@
-# 🔑 Rolling Code Support for Unofficial Flipper Zero Devices
+# 🔑 Rolling code support for "DIY Flipper" & Kiisu
 
 > Enable rolling code support on Kiisu, DIY Flipper Zero, and other unofficial devices -
 > **no coding skills or firmware compilation required.**
