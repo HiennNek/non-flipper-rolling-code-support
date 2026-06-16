@@ -51,12 +51,17 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | ATA_PTX4           | Unleashed          |
 | Fadini             | Unleashed          |
 | Seav               | Unleashed          |
+| Pujol              | Unleashed          |
 | Pujol_Vario        | Unleashed          |
 | Erreka             | Unleashed          |
 | Mc_Garcia          | Unleashed          |
 | Doormatic          | Unleashed          |
 | Elvox              | Unleashed          |
 | Verex              | Unleashed          |
+| ET_Blue            | Unleashed          |
+| ET_Blue_Mix        | Unleashed          |
+| ATA_PTX4           | Unleashed          |
+
 
 ---
 
