@@ -54,6 +54,9 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | Pujol_Vario        | Unleashed          |
 | Erreka             | Unleashed          |
 | Mc_Garcia          | Unleashed          |
+| Doormatic          | Unleashed          |
+| Elvox              | Unleashed          |
+| Verex              | Unleashed          |
 
 ---
 
