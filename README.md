@@ -18,10 +18,25 @@
 
 ## ⚡ Installation
 
+> [!WARNING]
+> **Please read the instructions carefully before proceeding!**
+
 1. Download [`keeloq_mfcodes_user`](https://github.com/HiennNek/non-flipper-rolling-code-support/blob/main/keeloq_mfcodes_user)
 2. Open **qFlipper**, **Flipper Lab**, or mount your SD card directly
 3. Place the file at: `SD Card/subghz/assets/`
 4. Done - no reboot required!
+
+> [!IMPORTANT]
+> **Note for Kiisu users:**
+>
+> [`keeloq_mfcodes_user`](https://github.com/HiennNek/non-flipper-rolling-code-support/blob/main/keeloq_mfcodes_user) does **not** add support for Alutech, Came Atomo, and Nice Flor S, as those keystores are stored as RAW files and require separate handling.
+>
+> To enable them, download the following files from the Kiisu firmware and place them in `SD Card/subghz/assets/`, replacing the existing ones:
+> - [alutech_at_4n](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/alutech_at_4n)
+> - [came_atomo](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/came_atomo)
+> - [nice_flor_s](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/nice_flor_s)
+>
+> **(Optional)** For best compatibility, also replace `keeloq_mfcodes` in the same folder with the Kiisu-encrypted version: [keeloq_mfcodes](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/keeloq_mfcodes)
 
 ---
 
