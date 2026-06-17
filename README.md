@@ -18,8 +18,7 @@
 
 ## ⚡ Installation
 
-> [!WARNING]
-> **Please read the instructions carefully before proceeding!**
+**Please read the instructions carefully before proceeding!**
 
 1. Download [`keeloq_mfcodes_user`](https://github.com/HiennNek/non-flipper-rolling-code-support/blob/main/keeloq_mfcodes_user)
 2. Open **qFlipper**, **Flipper Lab**, or mount your SD card directly
