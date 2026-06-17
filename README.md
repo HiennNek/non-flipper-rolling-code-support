@@ -58,22 +58,22 @@ That's exactly why this repository exists: to give anyone running Flipper firmwa
 
 This file covers most manufacturer keys found across Flipper firmware forks, but not all. The following keys are currently missing:
 
-| Manufacturer Key   | Source Firmware(s) |
-|--------------------|--------------------|
-| Clemsa_Mutancode   | Unleashed          |
-| Wisniowski         | Unleashed          |
-| ATA_PTX4           | Unleashed          |
-| Fadini             | Unleashed          |
-| Seav               | Unleashed          |
-| Pujol              | Unleashed          |
-| Pujol_Vario        | Unleashed          |
-| Erreka             | Unleashed          |
-| Mc_Garcia          | Unleashed          |
-| Doormatic          | Unleashed          |
-| Elvox              | Unleashed          |
-| Verex              | Unleashed          |
-| ET_Blue            | Unleashed          |
-| ET_Blue_Mix        | Unleashed          |
+|  Manufacturer Key  |      Source Firmware(s)      |
+|--------------------|------------------------------|
+| Clemsa_Mutancode   | Unleashed, Momentum          |
+| Wisniowski         | Unleashed, Momentum          |
+| ATA_PTX4           | Unleashed, Momentum          |
+| Fadini             | Unleashed, Momentum          |
+| Seav               | Unleashed, Momentum          |
+| Pujol              | Unleashed, Momentum          |
+| Pujol_Vario        | Unleashed, Momentum          |
+| Erreka             | Unleashed, Momentum          |
+| Mc_Garcia          | Unleashed, Momentum          |
+| Doormatic          | Unleashed, Momentum          |
+| Elvox              | Unleashed, Momentum          |
+| Verex              | Unleashed, Momentum          |
+| ET_Blue            | Unleashed, Momentum          |
+| ET_Blue_Mix        | Unleashed, Momentum          |
 
 ---
 
