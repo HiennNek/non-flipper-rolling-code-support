@@ -74,8 +74,6 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | Verex              | Unleashed          |
 | ET_Blue            | Unleashed          |
 | ET_Blue_Mix        | Unleashed          |
-| ATA_PTX4           | Unleashed          |
-
 
 ---
 
