@@ -36,7 +36,8 @@
 > - [nice_flor_s](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/nice_flor_s)
 >
 > **(Optional)** For best compatibility, also replace `keeloq_mfcodes` in the same folder with the Kiisu-encrypted version: [keeloq_mfcodes](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/keeloq_mfcodes)
-
+> 
+> **Note**: After every firmware update, `alutech_at_4n`, `came_atomo`, `nice_flor_s`, and `keeloq_mfcodes` will be overwritten by the firmware's default files - remember to re-replace them afterwards. **(keeloq_mfcodes_user is not affected.)**
 ---
 
 ## 📖 Background
