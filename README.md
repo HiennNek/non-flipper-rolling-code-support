@@ -23,6 +23,8 @@
 
 **Please read the instructions carefully before proceeding!**
 
+**Make sure you're using the latest firmware!**
+
 1. Download [`keeloq_mfcodes_user`](https://github.com/HiennNek/non-flipper-rolling-code-support/blob/main/keeloq_mfcodes_user)
 2. Open **qFlipper**, **Flipper Lab**, or mount your SD card directly
 3. Place the file at: `SD Card/subghz/assets/`
