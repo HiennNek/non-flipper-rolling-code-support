@@ -1,9 +1,12 @@
-# 🔑 Rolling code support for "DIY Flipper" & Kiisu
+# 🔑 Rolling code support for "DIY Flipper"
 
-> Enable rolling code support on Kiisu, DIY Flipper Zero, and other unofficial devices -
+> Enable rolling code support on DIY Flipper Zero & other unofficial devices -
 > **no coding skills or firmware compilation required.**
 > 
 > ✅ Compatible with all Flipper Zero firmware forks - Official, Unleashed, Momentum, RogueMaster, and more.
+
+> [!IMPORTANT]
+> **For Kiisu v4b/v4br users**: Please use my Momentum/Unleashed fork: [Kiisu-MNTM](https://github.com/HiennNek/kiisu-mntm) / [Kiisu-UNLSHD](https://github.com/HiennNek/kiisu-unlshd). They are up to date with upstream FWs, have rolling codes & U2F support, and Kiisu apps + Kiisu assets + Kiisu tweaks from Kiisu FW.
 
 ---
 
@@ -26,27 +29,17 @@
 4. Done - no reboot required!
 
 > [!IMPORTANT]
-> **Note for Kiisu users:**
->
-> [`keeloq_mfcodes_user`](https://github.com/HiennNek/non-flipper-rolling-code-support/blob/main/keeloq_mfcodes_user) does **not** add support for Alutech, Came Atomo, and Nice Flor S, as those keystores are stored as RAW files and require separate handling.
->
-> To enable them, download the following files from the Kiisu firmware and place them in `SD Card/subghz/assets/`, replacing the existing ones:
-> - [alutech_at_4n](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/alutech_at_4n)
-> - [came_atomo](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/came_atomo)
-> - [nice_flor_s](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/nice_flor_s)
->
-> **(Optional)** For best compatibility, also replace `keeloq_mfcodes` in the same folder with the Kiisu-encrypted version: [keeloq_mfcodes](https://github.com/kiisu-io/kiisu-firmware/blob/kiisudev/applications/main/subghz/resources/subghz/assets/keeloq_mfcodes)
-> 
-> **Note**: After every firmware update, `alutech_at_4n`, `came_atomo`, `nice_flor_s`, and `keeloq_mfcodes` will be overwritten by the firmware's default files - remember to re-replace them afterwards. **(keeloq_mfcodes_user is not affected.)**
+> Alutech AT-4N and Nice Flor-S are not supported. Those two protocols/manufacturers used RAW keystore and can't be stored as unencrypted.
+
 ---
 
 ## 📖 Background
 
-Flipper Zero firmware(s) is open source, which means it's possible to run it on custom hardware - whether that's a DIY build around an STM microcontroller or a third-party device like the Kiisu, a more affordable alternative to the official Flipper Zero.
+Flipper Zero firmware(s) are open source, which means it's possible to run them on custom hardware - whether that's a DIY build around an STM microcontroller or a third-party device like the Kiisu, a more affordable alternative to the official Flipper Zero.
 
 There's a catch, though: rolling code support depends on **manufacturer keys** that are encrypted and stored in **slot 1 of the official Flipper Zero's secure enclave**. These keys are tied to official hardware, meaning unofficial devices have no way to access or decrypt them.
 
-This is fundamentally different from U2F, where you can supply your own key and handle the certificate side yourself (newer Kiisu batches even support U2F across all Flipper firmware forks). Rolling code requires the **original, unencrypted manufacturer keys** - there's no workaround.
+This is fundamentally different from U2F, where you can supply your own key and handle the certificate side yourself. Rolling code requires the **original, unencrypted manufacturer keys** - there's no workaround.
 
 That's exactly why this repository exists: to give anyone running Flipper firmware(s) on unofficial hardware the ability to interact with rolling code devices, just like a genuine Flipper Zero. And since the fix is simply a drop-in asset file, it works across **all firmware forks** - Official, Unleashed, Momentum, RogueMaster, and any other fork that follows the standard Sub-GHz asset structure.
 
@@ -59,22 +52,26 @@ That's exactly why this repository exists: to give anyone running Flipper firmwa
 
 This file covers most manufacturer keys found across Flipper firmware forks, but not all. The following keys are currently missing:
 
-|  Manufacturer Key  |      Source Firmware(s)      |
-|--------------------|------------------------------|
-| Clemsa_Mutancode   | Unleashed, Momentum          |
-| Wisniowski         | Unleashed, Momentum          |
-| ATA_PTX4           | Unleashed, Momentum          |
-| Fadini             | Unleashed, Momentum          |
-| Seav               | Unleashed, Momentum          |
-| Pujol              | Unleashed, Momentum          |
-| Pujol_Vario        | Unleashed, Momentum          |
-| Erreka             | Unleashed, Momentum          |
-| Mc_Garcia          | Unleashed, Momentum          |
-| Doormatic          | Unleashed, Momentum          |
-| Elvox              | Unleashed, Momentum          |
-| Verex              | Unleashed, Momentum          |
-| ET_Blue            | Unleashed, Momentum          |
-| ET_Blue_Mix        | Unleashed, Momentum          |
+|  Manufacturer Key  |
+|--------------------|
+| Clemsa Mutancode   | 
+| Wisniowski         | 
+| ATA PTX4           | 
+| Fadini             | 
+| Seav               | 
+| Pujol              | 
+| Pujol Vario        | 
+| Erreka             | 
+| Mc Garcia          | 
+| Doormatic          | 
+| Elvox              | 
+| Verex              | 
+| ET Blue            | 
+| ET Blue Mix        |
+| AERF protocols     |
+| JCM1G protocols    |
+
+Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706). Keys from older commits are fully added.
 
 ---
 
