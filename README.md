@@ -1,6 +1,6 @@
 # 🔑 Rolling code support for "DIY Flipper"
 
-> Enable rolling code support on DIY Flipper Zero & other unofficial devices -
+> Add rolling code support on DIY Flipper Zero & other unofficial devices -
 > **no coding skills or firmware compilation required.**
 > 
 > ✅ Compatible with all Flipper Zero firmware forks - Official, Unleashed, Momentum, RogueMaster, and more.
