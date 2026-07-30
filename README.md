@@ -72,6 +72,7 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | ET Blue Mix        |
 | AERF protocols     |
 | JCM1G protocols    |
+| Miserere           |
 
 Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706). Keys from older commits are fully added.
 
