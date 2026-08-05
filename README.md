@@ -56,21 +56,12 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 
 |  Manufacturer Key  |
 |--------------------|
-| Clemsa Mutancode   | 
-| Wisniowski         | 
-| ATA PTX4           | 
 | Fadini             | 
-| Seav               | 
 | Pujol              | 
 | Pujol Vario        | 
-| Erreka             | 
 | Mc Garcia          | 
-| Doormatic          | 
-| Elvox              | 
 | Verex              | 
-| ET Blue            | 
-| ET Blue Mix        |
-| AERF protocols     |
+| AERF protocols (excluding Hydom, Medva, Sabutom, Temp)    |
 | JCM1G protocols    |
 | Miserere           |
 
