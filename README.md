@@ -56,16 +56,26 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 
 |  Manufacturer Key  |
 |--------------------|
+| Clemsa Mutancode   | 
+| Wisniowski         | 
+| ATA PTX4           | 
 | Fadini             | 
+| Seav               | 
 | Pujol              | 
 | Pujol Vario        | 
+| Erreka             | 
 | Mc Garcia          | 
+| Doormatic          | 
+| Elvox              | 
 | Verex              | 
-| AERF protocols (excluding Hydom, Medva, Sabutom, Temp)    |
+| ET Blue            | 
+| ET Blue Mix        |
+| AERF protocols     |
 | JCM1G protocols    |
 | Miserere           |
+| Superrollo         |
 
-Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706). Keys from older commits are fully added.
+Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706) and [104d96f](https://github.com/DarkFlippers/unleashed-firmware/commit/104d96f8694e55f4901a82a00e3c9bea97df1747). Keys from older commits are fully added.
 
 ---
 
