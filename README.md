@@ -78,8 +78,9 @@ This file covers most manufacturer keys found across Flipper firmware forks, but
 | SEA                |
 | Miserere           |
 | Superrollo         |
+| HomeGate           |
 
-Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706), [104d96f](https://github.com/DarkFlippers/unleashed-firmware/commit/104d96f8694e55f4901a82a00e3c9bea97df1747) and [e6ded9b](https://github.com/DarkFlippers/unleashed-firmware/commit/e6ded9b108454b30a3e710295e6d2b7fd146e188#diff-f4bca5f306c9d9d1e57c29346295c67a5be467e82233e20ccecb414326bb8e6b). Keys from older commits are fully added.
+Those missing manufacturer keys came from Unleashed commit [63d49b6](https://github.com/DarkFlippers/unleashed-firmware/commit/63d49b6e48533c8a182f3d0af97c59e629f07706), [104d96f](https://github.com/DarkFlippers/unleashed-firmware/commit/104d96f8694e55f4901a82a00e3c9bea97df1747), [e6ded9b](https://github.com/DarkFlippers/unleashed-firmware/commit/e6ded9b108454b30a3e710295e6d2b7fd146e188#diff-f4bca5f306c9d9d1e57c29346295c67a5be467e82233e20ccecb414326bb8e6b) and [e4eda9e](https://github.com/HiennNek/kiisu-unlshd/commit/e4eda9efca0177401c4b34872b6e366668a80041#diff-a55254dde68bbd769bc7d31c0a6c83f6fc281c302a75917c15a8c080152ad550). Keys from older commits are fully added.
 
 ---
 
