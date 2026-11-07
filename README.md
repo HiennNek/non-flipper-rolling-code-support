@@ -54,7 +54,11 @@ That's exactly why this repository exists: to give anyone running Flipper firmwa
 
 This file covers most manufacturer keys found across Flipper firmware forks, but not all. The following keys are currently missing:
 
-**None**
+|  Manufacturer Key  |
+|--------------------|
+|  Phantom/Hiland    |
+
+That missing manufacturer keys came from Unleashed commit [840cb4e](https://github.com/DarkFlippers/unleashed-firmware/commit/840cb4e69ba0c90bd9668a7f00681be3a08b6ef6)
 
 ---
 
